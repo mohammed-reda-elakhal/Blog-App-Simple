@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid img{
+    border:1px black solid;
+    border-radius:10px;
+}
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-size: 12px;
+}
+.btns button{
+    font-size:12px;
+    margin:0 2px;
+}
+.contenu{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
